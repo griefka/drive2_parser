@@ -1,0 +1,20 @@
+{
+    "name": "parser/parser",
+    "description": "Parser",
+    "keywords": ["drive2parser", "drive2parser"],
+    "license": "MIT",
+    "type": "project",
+    "autoload": {
+        "classmap": [
+            "vendor/simple-html-dom/simple-html-dom/simple_html_dom.php"
+        ],
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "simple-html-dom/simple-html-dom": "^1.5",
+        "php-amqplib/php-amqplib": "^2.6",
+        "symfony/dependency-injection": "^3.2"
+    }
+}
