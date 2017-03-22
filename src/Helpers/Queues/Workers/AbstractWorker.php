@@ -6,10 +6,12 @@ namespace Helpers\Queues\Workers;
 use Parsers\ParserDrive2;
 use PhpAmqpLib\Connection\AMQPStreamConnection;
 use Repositories\AbstractRepository;
+use Helpers\Images\SaveImage;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 abstract class AbstractWorker
 {
-    public function __construct(AMQPStreamConnection $connection, ParserDrive2 $parser, $queueName, AbstractRepository $repository)
+    public function __construct(AMQPStreamConnection $connection, ParserDrive2 $parser, $queueName,  $repository, ContainerBuilder $container)
     {
         $this->connection = $connection;
         $this->channel = $this->connection->channel();
@@ -17,12 +19,7 @@ abstract class AbstractWorker
         $this->queueName = $queueName;
         $this->channel->queue_declare($queueName, false, true, false, false);
         $this->repository = $repository;
-    }
-
-    public function saveImage($image, $directory){
-        $array = explode('.', $image);
-        $extension = end($array);
-        file_put_contents($_SERVER['DOCUMENT_ROOT'].'/src/images/'.$directory.time().rand(0,10000).'.'.$extension, file_get_contents($image));
+        $this->container = $container;
     }
 
     public function startWorker()

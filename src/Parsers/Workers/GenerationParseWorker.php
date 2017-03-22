@@ -10,5 +10,5 @@ use PhpAmqpLib\Connection\AMQPStreamConnection;
 
 $connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');
 $repository = $container->get('generationRepository');
-$worker = new GenerationWorker($connection, (new ParserDrive2()), 'generation_queue', $repository);
+$worker = new GenerationWorker($connection, (new ParserDrive2()), 'generation_queue', $repository, $container);
 $worker->startWorker();

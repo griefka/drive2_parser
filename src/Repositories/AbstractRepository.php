@@ -13,7 +13,7 @@ abstract class AbstractRepository
         $this->pdo = $pdo;
     }
 
-    private function prepareParams($params){
+    protected function prepareParams($params){
         $fieldNames = [];
         $fieldValues = [];
         foreach ($params as $field => $value) {
@@ -124,12 +124,12 @@ abstract class AbstractRepository
      *  return last record
      * @return mixed
      */
-    private function lastRecord(){
+    protected function lastRecord(){
         $tableName = $this->getTableName();
         $lastInsertId = $this->pdo->lastInsertId();
         $stmt = $this->pdo->prepare("SELECT * FROM $tableName WHERE id=$lastInsertId");
         $stmt->execute([$lastInsertId]);
-        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+        return $stmt->fetch(PDO::FETCH_ASSOC);
     }
 
     /**

@@ -3,9 +3,9 @@
 namespace Repositories;
 
 
-class CarsImagesRepository extends AbstractRepository
+class LogbooksImagesRepository extends AbstractRepository
 {
-    protected $tableName = 'cars_images';
+    protected $tableName = 'logbooks_images';
 
     public function getTableName()
     {
@@ -19,7 +19,7 @@ class CarsImagesRepository extends AbstractRepository
             $values .= "($carId, $image), ";
         }
         $itemsForSet = substr($values, 0, -2);
-        $sql ="INSERT INTO car_image (car_id, cars_images_id) VALUES $itemsForSet";
+        $sql ="INSERT INTO logbook_images (logbook_id, logbook_image_id) VALUES $itemsForSet";
         $stm = $this->pdo->prepare($sql);
         $stm->execute();
     }

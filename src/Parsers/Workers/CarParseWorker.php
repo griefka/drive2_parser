@@ -10,5 +10,5 @@ use PhpAmqpLib\Connection\AMQPStreamConnection;
 
 $repository = $container->get('carRepository');
 $connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');
-$worker = new CarWorker($connection, (new ParserDrive2()), 'car_queue', $repository);
+$worker = new CarWorker($connection, (new ParserDrive2()), 'car_queue', $repository, $container);
 $worker->startWorker();

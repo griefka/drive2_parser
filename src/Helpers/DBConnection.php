@@ -24,7 +24,6 @@ class DBConnection
 
     private function __construct()
     {
-
         try {
             $this->_connection = new PDO(
                 'mysql:host=' . $this->_host . ';dbname=' . $this->_database,

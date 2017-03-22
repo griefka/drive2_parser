@@ -30,3 +30,8 @@ $container->
 register(
     'logbookRepository', 'Repositories\LogbookRepository')
     ->addArgument(DBConnection::getInstance()->getConnection());
+
+$container->
+register(
+    'carsImagesRepository', 'Repositories\CarsImagesRepository')
+    ->addArgument(DBConnection::getInstance()->getConnection());

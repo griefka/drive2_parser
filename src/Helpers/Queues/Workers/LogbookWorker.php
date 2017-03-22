@@ -3,8 +3,12 @@
 namespace Helpers\Queues\Workers;
 
 
+use Helpers\Images\SaveImage;
+
 class LogbookWorker extends AbstractWorker
 {
+    use SaveImage;
+
     public function startWorker()
     {
         $callback = function ($msg) {
@@ -14,8 +18,14 @@ class LogbookWorker extends AbstractWorker
                     $this->saveImage($image, 'logbooks');
                 }
                 unset($param['images']);
-                $this->repository->createOrUpdate('url', $param);
-//                $this->saveImage($param['image']);
+                $logbook = $this->repository->createOrUpdate('url', $param);
+                if (!empty($images)) {
+                    foreach ($images as $image) {
+                        $savedImage = $this->container->get('logbooksImagesRepository')->create(['url'=>$image]);
+                        $ids[] = $savedImage['id'];
+                    }
+                    $this->container->get('carsImagesRepository')->saveImages($logbook['id'], $ids);
+                }
             }
             echo "Ready \n";
             $msg->delivery_info['channel']->basic_ack($msg->delivery_info['delivery_tag']);

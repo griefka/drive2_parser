@@ -27,6 +27,7 @@ class ParserDrive2
         $fullUrl = ($gettingParams) ? $this->siteUrl. $logbookUrl: $this->siteUrl . '/cars/?all';
         if ($page = file_get_html($fullUrl)) {
             $pageContent = $page->find($selector);
+
             foreach ($pageContent as $key => $item) {
                 $result[] = $this->prepareFields($pageName, $item, $gettingParams, $page);
             }
@@ -34,6 +35,13 @@ class ParserDrive2
         return $result;
     }
 
+    /** prepare fields
+     * @param $pageName
+     * @param $item
+     * @param $gettingParam
+     * @param $page
+     * @return array
+     */
     private function prepareFields($pageName, $item, $gettingParam, $page)
     {
         $fieldsArray = [];
@@ -48,17 +56,13 @@ class ParserDrive2
                 $fieldsArray['name'] = $item->nodes[0]->_[4];
                 break;
             case self::PAGE_CAR:
-
                 $carsModelPage = $page;
-
                 $imagesDOM = $carsModelPage->find('.js-pichd');
                 foreach ($imagesDOM as $image){
-                    $carsParams['images'] = $image->attr['src'];
+                    $fieldsArray['images'][] = $image->attr['src'];
                 }
                 $carsModelInfo = $carsModelPage->find('.l-main');
                 $headerInfo = $carsModelInfo[0]->find('.c-header-main a');
-
-
                 $allCarUrls = [];
                 foreach ($headerInfo as $item){
                     $allCarUrls[] = $item->attr['href'];
@@ -83,22 +87,21 @@ class ParserDrive2
                 break;
             case self::PAGE_LOGBOOK:
                 $textSelector = $item->find('p text');
-                $privet = '';
+                $logbookText = '';
                 foreach ($textSelector as $text){
-                    $privet .= $text->_[4];
+                    $logbookText .= $text->_[4];
                 }
-                $poka = [];
+                $logbookImages = [];
                 $images = $item->find('.c-post__pic img');
-
                 foreach ($images as $image){
-                    $poka[0] = $image->src;
+                    $logbookImages[0] = $image->src;
                 }
-                $kek = $page->find('.c-header-main span');
-                $kok = end($kek);
-                $fieldsArray['title'] = $kok->nodes[0]->_[4];
+                $logbookHeader = $page->find('.c-header-main span');
+                $logbookTitle = end($logbookHeader);
+                $fieldsArray['title'] = $logbookTitle->nodes[0]->_[4];
                 $fieldsArray['car_url'] = $page->find('.c-header-main .c-link')[0]->attr['href'];
-                $fieldsArray['images'] = $poka;
-                $fieldsArray['text'] = $privet;
+                $fieldsArray['images'] = $logbookImages;
+                $fieldsArray['text'] = $logbookText;
                 $fieldsArray['url'] = $gettingParam['url'];
                 break;
             case self::PAGE_LOGBOOKS:

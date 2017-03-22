@@ -2,39 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61596c94-150e-458c-bc4f-97eb7b2b9985" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Helpers/DI.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Helpers/Queues/AbstractAmqpShell.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Helpers/Queues/Tasks/CarTasks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Helpers/Queues/Tasks/GenerationTasks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Helpers/Queues/Tasks/ModelTasks.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Helpers/Queues/Workers/AbstractWorker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Helpers/Queues/Workers/CarWorker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Helpers/Queues/Workers/LogbookWorker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Helpers/simple_html_dom.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Parsers/Tasks/CarParseTask.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Parsers/Tasks/GenerationParseTask.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Parsers/Tasks/LogbookParseTask.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Parsers/Workers/CarParseWorker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Parsers/Workers/GenerationParseWorker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Parsers/Workers/LogbookParseWorker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Repositories/LogbookRepository.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AbstractParser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AbstractRepository.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BrandRepository.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CarRepository.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/DBConnection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/GenerationRepository.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ModelRepository.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Parseable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Parser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Parser/simple_html_dom.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ParserCollector.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/5428.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/allo.jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/drive.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Repositories/LogbooksImagesRepository.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Parsers/Parseable.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/14898549655574jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/14898550251468.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/5428.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/images/allo.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/3eec983a-f7f4-4d9c-a37e-af4911279b59.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/3eec983a-f7f4-4d9c-a37e-af4911279b59.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/parser.iml" afterPath="$PROJECT_DIR$/.idea/parser.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Helpers/DBConnection.php" afterPath="$PROJECT_DIR$/src/Helpers/DBConnection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Helpers/DI.php" afterPath="$PROJECT_DIR$/src/Helpers/DI.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Helpers/Queues/Tasks/BrandTasks.php" afterPath="$PROJECT_DIR$/src/Helpers/Queues/Tasks/BrandTasks.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Helpers/Queues/Tasks/CarTasks.php" afterPath="$PROJECT_DIR$/src/Helpers/Queues/Tasks/CarTasks.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Helpers/Queues/Tasks/GenerationTasks.php" afterPath="$PROJECT_DIR$/src/Helpers/Queues/Tasks/GenerationTasks.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Helpers/Queues/Workers/AbstractWorker.php" afterPath="$PROJECT_DIR$/src/Helpers/Queues/Workers/AbstractWorker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Helpers/Queues/Workers/CarWorker.php" afterPath="$PROJECT_DIR$/src/Helpers/Queues/Workers/CarWorker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Helpers/Queues/Workers/LogbookWorker.php" afterPath="$PROJECT_DIR$/src/Helpers/Queues/Workers/LogbookWorker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Parsers/ParserDrive2.php" afterPath="$PROJECT_DIR$/src/Parsers/ParserDrive2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Parsers/Workers/CarParseWorker.php" afterPath="$PROJECT_DIR$/src/Parsers/Workers/CarParseWorker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Parsers/Workers/GenerationParseWorker.php" afterPath="$PROJECT_DIR$/src/Parsers/Workers/GenerationParseWorker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Parsers/Workers/ModelParseWorker.php" afterPath="$PROJECT_DIR$/src/Parsers/Workers/ModelParseWorker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Repositories/AbstractRepository.php" afterPath="$PROJECT_DIR$/src/Repositories/AbstractRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Repositories/CarsImagesRepository.php" afterPath="$PROJECT_DIR$/src/Repositories/CarsImagesRepository.php" />
     </list>
     <ignored path="parser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,47 +58,12 @@
       </PATH_ELEMENT>
     </PATH>
   </component>
-  <component name="DockManager">
-    <window id="2">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="ParserDrive2.php" pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/src/Parsers/ParserDrive2.php">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="320">
-                    <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-                    <folding>
-                      <element signature="e#1114#4326#0#PHP" expanded="false" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
-  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="parser" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-              <folding>
-                <element signature="e#240#276#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -115,9 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/emit_log_topic.php" />
-        <option value="$PROJECT_DIR$/receive_logs_topic.php" />
-        <option value="$PROJECT_DIR$/rpc_server.php" />
         <option value="$PROJECT_DIR$/src/Helpers/ParseDriveRpcClient.php" />
         <option value="$PROJECT_DIR$/src/Helpers/RPC/ParseDriveRpcClient.php" />
         <option value="$PROJECT_DIR$/src/Helpers/RPC/ParseDriveRpcServer.php" />
@@ -140,32 +93,35 @@
         <option value="$PROJECT_DIR$/src/Repositories/ModelRepository.php" />
         <option value="$PROJECT_DIR$/src/Repositories/GenerationRepository.php" />
         <option value="$PROJECT_DIR$/src/Repositories/BrandRepository.php" />
-        <option value="$PROJECT_DIR$/src/Parsers/Workers/GenerationParseWorker.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/src/Helpers/Queues/Tasks/GenerationTasks.php" />
         <option value="$PROJECT_DIR$/src/Parsers/Workers/BrandParseWorker.php" />
-        <option value="$PROJECT_DIR$/src/Parsers/Workers/ModelParseWorker.php" />
         <option value="$PROJECT_DIR$/src/Helpers/Queues/Tasks/ModelTasks.php" />
         <option value="$PROJECT_DIR$/src/Parsers/Tasks/BrandParseTask.php" />
         <option value="$PROJECT_DIR$/src/Parsers/Tasks/ModelParseTask.php" />
-        <option value="$PROJECT_DIR$/src/Parsers/Tasks/GenerationParseTask.php" />
-        <option value="$PROJECT_DIR$/src/Parsers/Workers/CarParseWorker.php" />
-        <option value="$PROJECT_DIR$/src/Repositories/CarsImagesRepository.php" />
         <option value="$PROJECT_DIR$/src/Parsers/Tasks/CarParseTask.php" />
-        <option value="$PROJECT_DIR$/src/Helpers/DI.php" />
         <option value="$PROJECT_DIR$/src/Parsers/Tasks/LogbookParseTask.php" />
         <option value="$PROJECT_DIR$/src/Repositories/LogbookRepository.php" />
         <option value="$PROJECT_DIR$/src/Parsers/Workers/LogbookParseWorker.php" />
         <option value="$PROJECT_DIR$/src/Helpers/Queues/Tasks/LogbookTasks.php" />
+        <option value="$PROJECT_DIR$/src/Helpers/DI.php" />
+        <option value="$PROJECT_DIR$/src/Helpers/Queues/Workers/AbstractWorker.php" />
+        <option value="$PROJECT_DIR$/src/Parsers/Workers/CarParseWorker.php" />
+        <option value="$PROJECT_DIR$/src/Parsers/Workers/ModelParseWorker.php" />
+        <option value="$PROJECT_DIR$/src/Parsers/Workers/GenerationParseWorker.php" />
+        <option value="$PROJECT_DIR$/src/Parsers/Tasks/GenerationParseTask.php" />
         <option value="$PROJECT_DIR$/src/Helpers/Queues/Tasks/AbstractTask.php" />
         <option value="$PROJECT_DIR$/src/Helpers/Queues/Tasks/BrandTasks.php" />
-        <option value="$PROJECT_DIR$/src/Helpers/Queues/Tasks/CarTasks.php" />
-        <option value="$PROJECT_DIR$/src/Helpers/Queues/Workers/AbstractWorker.php" />
-        <option value="$PROJECT_DIR$/src/Helpers/Queues/Workers/LogbookWorker.php" />
-        <option value="$PROJECT_DIR$/src/Helpers/Queues/Workers/CarWorker.php" />
+        <option value="$PROJECT_DIR$/src/Helpers/Queues/Tasks/GenerationTasks.php" />
         <option value="$PROJECT_DIR$/src/Parsers/ParserDrive2.php" />
-        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/src/Helpers/Images/SaveImage.php" />
         <option value="$PROJECT_DIR$/src/Repositories/AbstractRepository.php" />
+        <option value="$PROJECT_DIR$/src/Helpers/Queues/Workers/CarWorker.php" />
+        <option value="$PROJECT_DIR$/src/Helpers/Queues/Tasks/CarTasks.php" />
+        <option value="$PROJECT_DIR$/src/Helpers/Queues/Workers/LogbookWorker.php" />
+        <option value="$PROJECT_DIR$/src/Helpers/DBConnection.php" />
+        <option value="$PROJECT_DIR$/src/Repositories/CarsImagesRepository.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/src/Repositories/LogbooksImagesRepository.php" />
       </list>
     </option>
   </component>
@@ -213,35 +169,66 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/db" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="SearchEverywhereHistoryKey" value="Brand&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Workers/BrandParseWorker.php&#10;BrandW&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Workers/BrandParseWorker.php&#10;Abs&#9;FILE&#9;file:///home/kai/www/parser/src/Repositories/AbstractRepository.php&#10;BrandPar&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Workers/BrandParseWorker.php&#10;BrandP&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Queues/Tasks/BrandTasks.php&#10;PArse&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Tasks/BrandParseTask.php&#10;Bra&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Tasks/BrandParseTask.php&#10;BranPa&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Tasks/BrandParseTask.php&#10;index&#9;FILE&#9;file:///home/kai/www/parser/index.php&#10;Reposito&#9;FILE&#9;file:///home/kai/www/parser/src/Repositories/AbstractRepository.php&#10;CarWo&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Workers/CarParseWorker.php&#10;LogbookWo&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Queues/Workers/LogbookWorker.php&#10;Pa&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/ParserDrive2.php&#10;Work&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Queues/Workers/LogbookWorker.php&#10;inde&#9;FILE&#9;file:///home/kai/www/parser/index.php&#10;Parse&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/ParserDrive2.php&#10;LogbookTask&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Queues/Tasks/LogbookTasks.php&#10;Ab&#9;FILE&#9;file:///home/kai/www/parser/src/Repositories/AbstractRepository.php&#10;DI&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/DI.php&#10;Log&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Workers/LogbookParseWorker.php&#10;LoRe&#9;FILE&#9;file:///home/kai/www/parser/src/Repositories/LogbookRepository.php&#10;Abst&#9;FILE&#9;file:///home/kai/www/parser/src/Repositories/AbstractRepository.php&#10;Par&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/ParserDrive2.php&#10;Worker&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Queues/Workers/LogbookWorker.php&#10;Car&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Queues/Tasks/CarTasks.php&#10;lo&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Queues/Tasks/LogbookTasks.php&#10;LogbookT&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Queues/Tasks/LogbookTasks.php&#10;CarT&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Queues/Tasks/CarTasks.php&#10;bra&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Tasks/BrandParseTask.php&#10;CarPar&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Tasks/CarParseTask.php&#10;CarRe&#9;FILE&#9;file:///home/kai/www/parser/src/Repositories/CarRepository.php&#10;Drive2&#9;null&#9;null&#10;ParseDri&#9;null&#9;null&#10;CarW&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Workers/CarParseWorker.php&#10;Mode&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Tasks/ModelParseTask.php&#10;CarTa&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Tasks/CarParseTask.php&#10;ParWorker&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Workers/ModelParseWorker.php&#10;CarPa&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Workers/CarParseWorker.php&#10;ModelPar&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Tasks/ModelParseTask.php&#10;CarTas&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Tasks/CarParseTask.php&#10;AbRe&#9;null&#9;null&#10;Generation&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Tasks/GenerationParseTask.php&#10;Пу&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Queues/Tasks/GenerationTasks.php&#10;MoParseTask&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Tasks/ModelParseTask.php&#10;modelP&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Queues/Tasks/ModelTasks.php&#10;Model&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Workers/ModelParseWorker.php&#10;Di&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/DI.php&#10;Mo&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Queues/Tasks/ModelTasks.php&#10;B&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Workers/BrandParseWorker.php&#10;Gene&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Tasks/GenerationParseTask.php" />
+    <property name="SearchEverywhereHistoryKey" value="Work&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Queues/Workers/CarWorker.php&#10;DB&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/DBConnection.php&#10;Worker&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Queues/Workers/CarWorker.php&#10;Parse&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/ParserDrive2.php&#10;CarWo&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Queues/Workers/CarWorker.php&#10;Log&#9;null&#9;null&#10;CarTas&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Queues/Tasks/CarTasks.php&#10;index&#9;FILE&#9;file:///home/kai/www/parser/index.php&#10;Car&#9;FILE&#9;file:///home/kai/www/parser/src/Repositories/CarsImagesRepository.php&#10;Ca&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Workers/CarParseWorker.php&#10;Кузщ&#9;FILE&#9;file:///home/kai/www/parser/src/Repositories/AbstractRepository.php&#10;Save&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Images/SaveImage.php&#10;CarPar&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Tasks/CarParseTask.php&#10;Gene&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Queues/Tasks/GenerationTasks.php&#10;simple&#9;FILE&#9;file:///home/kai/www/parser/vendor/simple-html-dom/simple-html-dom/simple_html_dom.php&#10;Bra&#9;null&#9;null&#10;Gen&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Queues/Tasks/GenerationTasks.php&#10;Generation&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Tasks/GenerationParseTask.php&#10;BrandTask&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Tasks/BrandParseTask.php&#10;Bran&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Workers/BrandParseWorker.php&#10;ModelTas&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Tasks/ModelParseTask.php&#10;DI&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/DI.php&#10;Ge&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Workers/GenerationParseWorker.php&#10;GenTask&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Tasks/GenerationParseTask.php&#10;PaTask&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Tasks/GenerationParseTask.php&#10;GeneTas&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Queues/Tasks/GenerationTasks.php&#10;GeneW&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Workers/GenerationParseWorker.php&#10;ModelWork&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Workers/ModelParseWorker.php&#10;Model&#9;null&#9;null&#10;Images&#9;FILE&#9;file:///home/kai/www/parser/src/Repositories/CarsImagesRepository.php&#10;Par&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/ParserDrive2.php&#10;ParseDri&#9;null&#9;null&#10;Brand&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Workers/BrandParseWorker.php&#10;BrandW&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Workers/BrandParseWorker.php&#10;Abs&#9;FILE&#9;file:///home/kai/www/parser/src/Repositories/AbstractRepository.php&#10;BrandPar&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Workers/BrandParseWorker.php&#10;BrandP&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Queues/Tasks/BrandTasks.php&#10;PArse&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Tasks/BrandParseTask.php&#10;BranPa&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/Tasks/BrandParseTask.php&#10;Reposito&#9;FILE&#9;file:///home/kai/www/parser/src/Repositories/AbstractRepository.php&#10;LogbookWo&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Queues/Workers/LogbookWorker.php&#10;Pa&#9;FILE&#9;file:///home/kai/www/parser/src/Parsers/ParserDrive2.php&#10;inde&#9;FILE&#9;file:///home/kai/www/parser/index.php&#10;LogbookTask&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Queues/Tasks/LogbookTasks.php&#10;Ab&#9;FILE&#9;file:///home/kai/www/parser/src/Repositories/AbstractRepository.php&#10;LoRe&#9;FILE&#9;file:///home/kai/www/parser/src/Repositories/LogbookRepository.php&#10;Abst&#9;FILE&#9;file:///home/kai/www/parser/src/Repositories/AbstractRepository.php&#10;lo&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Queues/Tasks/LogbookTasks.php&#10;LogbookT&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Queues/Tasks/LogbookTasks.php&#10;CarT&#9;FILE&#9;file:///home/kai/www/parser/src/Helpers/Queues/Tasks/CarTasks.php" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Parsers/Workers" />
-      <recent name="$PROJECT_DIR$/src/Parsers/Tasks" />
-      <recent name="$PROJECT_DIR$/src/Helpers/Queues" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Repositories" />
       <recent name="$PROJECT_DIR$/src/Parsers/Workers" />
       <recent name="$PROJECT_DIR$/src/Parsers/Tasks" />
       <recent name="$PROJECT_DIR$/src/Helpers/Queues/Workers" />
       <recent name="$PROJECT_DIR$/src/Helpers/Queues/Tasks" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/db" />
+      <recent name="$PROJECT_DIR$/src/Parsers/Workers" />
+      <recent name="$PROJECT_DIR$/src/Parsers/Tasks" />
+      <recent name="$PROJECT_DIR$/src/Helpers/Queues" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -332,22 +319,30 @@
       <workItem from="1489668586910" duration="10848000" />
       <workItem from="1489735711355" duration="2662000" />
       <workItem from="1489742056826" duration="20503000" />
-      <workItem from="1489839823435" duration="18524000" />
+      <workItem from="1489839823435" duration="18857000" />
+      <workItem from="1489996479357" duration="672000" />
+      <workItem from="1490005411930" duration="6589000" />
+      <workItem from="1490013142976" duration="11235000" />
+      <workItem from="1490090096378" duration="1949000" />
+      <workItem from="1490092427000" duration="35000" />
+      <workItem from="1490094688444" duration="7160000" />
+      <workItem from="1490110961495" duration="615000" />
+      <workItem from="1490168688467" duration="538000" />
+      <workItem from="1490169414989" duration="2673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248107000" />
+    <option name="totallyTimeSpent" value="279906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16473189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17302378" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22719735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22719735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -360,6 +355,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -372,15 +368,15 @@
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29123172" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15201768" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29123172" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17302378" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22719735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38517746" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37995824" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -398,18 +394,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/index.php</url>
-          <line>8</line>
-          <option name="timeStamp" value="323" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/Parsers/Workers/BrandParseWorker.php</url>
           <line>10</line>
           <option name="timeStamp" value="324" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/index.php</url>
-          <option name="timeStamp" value="345" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/Helpers/Queues/Tasks/LogbookTasks.php</url>
@@ -417,33 +404,13 @@
           <option name="timeStamp" value="429" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/index.php</url>
-          <line>20</line>
-          <option name="timeStamp" value="431" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/Helpers/Queues/Tasks/AbstractTask.php</url>
-          <line>65</line>
-          <option name="timeStamp" value="432" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/Helpers/Queues/Tasks/BrandTasks.php</url>
-          <line>10</line>
+          <line>12</line>
           <option name="timeStamp" value="433" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/Parsers/ParserDrive2.php</url>
-          <line>24</line>
-          <option name="timeStamp" value="434" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/src/Repositories/AbstractRepository.php</url>
-          <line>104</line>
-          <option name="timeStamp" value="435" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/src/Helpers/Queues/Workers/AbstractWorker.php</url>
-          <line>30</line>
+          <line>27</line>
           <option name="timeStamp" value="436" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -451,8 +418,13 @@
           <line>94</line>
           <option name="timeStamp" value="439" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/index.php</url>
+          <line>9</line>
+          <option name="timeStamp" value="477" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="444" />
+      <option name="time" value="478" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="index.php">
@@ -461,441 +433,205 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.car_image">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
+    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.generations">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars_images">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repositories/CarRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="9" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repositories/CarsImagesRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parsers/Tasks/CarParseTask.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-          <folding>
-            <element signature="e#130#164#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parsers/Tasks/LogbookParseTask.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-          <folding>
-            <element signature="e#130#168#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.generations">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repositories/LogbookRepository.php">
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/dependency-injection/ContainerBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="309">
+          <caret line="417" column="20" selection-start-line="417" selection-start-column="20" selection-end-line="417" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Helpers/DI.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="400">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parsers/Workers/LogbookParseWorker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="e#130#171#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Helpers/Queues/Tasks/LogbookTasks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.logbooks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/14898550251468.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Helpers/Queues/Workers/LogbookWorker.php">
+    <entry file="file://$PROJECT_DIR$/src/Parsers/Workers/GenerationParseWorker.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="15" selection-end-column="40" />
+          <caret line="12" column="57" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parsers/Tasks/ModelParseTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parsers/Workers/BrandParseWorker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Helpers/Queues/Workers/CarWorker.php">
+    <entry file="file://$PROJECT_DIR$/src/Parsers/Tasks/GenerationParseTask.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parsers/Tasks/BrandParseTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Helpers/Queues/Tasks/BrandTasks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="78" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Helpers/Queues/Tasks/CarTasks.php">
+    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.brands">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/simple-html-dom/simple-html-dom/simple_html_dom.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="45" column="45" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="45" />
+        <state relative-caret-position="640">
+          <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Helpers/Queues/Tasks/AbstractTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-172">
+          <caret line="259" column="0" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.models">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.generations">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Helpers/Queues/Tasks/GenerationTasks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Helpers/simple_html_dom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/cars14901006836033.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/Parsers/Tasks/CarParseTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Helpers/Images/SaveImage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/cars/14901008202351.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/Repositories/AbstractRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="778">
+          <caret line="110" column="26" selection-start-line="110" selection-start-column="26" selection-end-line="110" selection-end-column="26" />
           <folding>
-            <element signature="e#238#910#0#PHP" expanded="false" />
+            <element signature="e#223#879#0#PHP" expanded="false" />
+            <marker date="1490101332720" expanded="true" signature="1257:1327" ph="INSERT INTO ${$tableName}... " />
+            <marker date="1490101332720" expanded="true" signature="1880:1924" ph="UPDATE ${$ta... " />
+            <marker date="1490101332720" expanded="true" signature="3615:3670" ph="select count... ${$tableName}" />
+            <marker date="1490101332720" expanded="true" signature="3954:3988" ph="SELECT * FRO... ${$tableName}" />
+            <marker date="1490101332720" expanded="true" signature="4273:4287" ph="SELECT * FRO... ${$tableName}" />
+            <marker date="1490101332720" expanded="true" signature="4638:4683" ph="SELECT * FRO... movies" />
+            <marker date="1490101332720" expanded="true" signature="4638:4693" ph="SELECT * FRO... ${$tableName}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.car_image">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -907,111 +643,257 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="259" column="0" selection-start-line="259" selection-start-column="0" selection-end-line="259" selection-end-column="0" />
-          <folding />
+    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.car_image">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Helpers/Queues/Tasks/BrandTasks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parsers/ParserDrive2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="e#1114#4326#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parsers/Tasks/BrandParseTask.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Helpers/Queues/Tasks/AbstractTask.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.brands">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.car_image">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Helpers/Queues/Tasks/LogbookTasks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Helpers/Queues/Tasks/CarTasks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Helpers/Queues/Workers/LogbookWorker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.logbooks_images">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parsers/Workers/BrandParseWorker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding />
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Helpers/Queues/Workers/BrandWorker.php">
+    <entry file="file://$PROJECT_DIR$/src/Parsers/ParserDrive2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Helpers/Queues/Workers/AbstractWorker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="-115">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding>
-            <element signature="e#191#617#0#PHP" expanded="false" />
+            <element signature="e#1404#1571#0#PHP" expanded="false" />
+            <element signature="e#1584#1815#0#PHP" expanded="false" />
+            <element signature="e#1828#2866#0#PHP" expanded="false" />
+            <element signature="e#2879#3217#0#PHP" expanded="false" />
+            <element signature="e#3230#3466#0#PHP" expanded="false" />
+            <element signature="e#3479#4406#0#PHP" expanded="false" />
+            <element signature="e#4419#4503#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repositories/AbstractRepository.php">
+    <entry file="file://$PROJECT_DIR$/src/Helpers/DBConnection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="70" column="56" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="56" />
-          <folding>
-            <element signature="e#223#877#0#PHP" expanded="false" />
-            <marker date="1489858353788" expanded="true" signature="1255:1325" ph="INSERT INTO ${$tableName}... " />
-            <marker date="1489858353788" expanded="true" signature="1878:1922" ph="UPDATE ${$ta... " />
-            <marker date="1489858353788" expanded="true" signature="3613:3668" ph="select count... ${$tableName}" />
-            <marker date="1489858353788" expanded="true" signature="3950:3984" ph="SELECT * FRO... ${$tableName}" />
-            <marker date="1489858353788" expanded="true" signature="4272:4286" ph="SELECT * FRO... ${$tableName}" />
-            <marker date="1489858353788" expanded="true" signature="4637:4682" ph="SELECT * FRO... movies" />
-            <marker date="1489858353788" expanded="true" signature="4637:4692" ph="SELECT * FRO... ${$tableName}" />
-          </folding>
+        <state relative-caret-position="220">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.cars_images">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="180">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.car_image">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/a91937f4/3eec983a-f7f4-4d9c-a37e-af4911279b59/drive.logbook_image">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repositories/LogbooksImagesRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
-            <element signature="e#240#276#0#PHP" expanded="true" />
+            <marker date="1490171184785" expanded="true" signature="458:523" ph="INSERT INTO logbook_images... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Helpers/Queues/Workers/CarWorker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/drive_models.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/drive_logbooks_images.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/drive_logbooks.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/drive_generations.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/drive_cars.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/drive_car_image.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/drive_logbook_image.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/drive_cars_images.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/drive_brands.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repositories/CarsImagesRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="e#303#387#0#PHP" expanded="false" />
+            <marker date="1490170065177" expanded="true" signature="450:504" ph="INSERT INTO car_image... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/drive_brands.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>

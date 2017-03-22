@@ -10,5 +10,5 @@ use PhpAmqpLib\Connection\AMQPStreamConnection;
 
 $repository = $container->get('modelRepository');
 $connection = new AMQPStreamConnection('localhost', 5672, 'guest', 'guest');
-$worker = new ModelWorker($connection, (new ParserDrive2()), 'model_queue', $repository);
+$worker = new ModelWorker($connection, (new ParserDrive2()), 'model_queue', $repository, $container);
 $worker->startWorker();

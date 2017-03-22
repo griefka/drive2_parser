@@ -3,6 +3,8 @@
 namespace Helpers\Queues\Tasks;
 
 
+use Parsers\ParserDrive2;
+
 class GenerationTasks extends AbstractTask
 {
 
@@ -11,7 +13,7 @@ class GenerationTasks extends AbstractTask
         $allModels = $this->container->get('modelRepository')->all();
 
         foreach ($allModels as $model){
-            $this->content[] = $this->parser->parseGenerations($model);
+            $this->content[] = $this->parser->parseEntity(ParserDrive2::PAGE_GENERATIONS, '.c-block .c-gen-card__caption a', $model);
         }
 
     }
